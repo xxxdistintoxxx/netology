@@ -211,3 +211,4 @@ average_lecturer([l1,l2],['Git','Python'])
 print(r1)
 print(r2)
 
+cvnvh
