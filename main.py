@@ -196,7 +196,7 @@ r2.add_grades(s2, "Python", 7)
 r2.add_grades(s2, "Git", 9)
 r2.add_grades(s2, "Git", 6)
 r2.add_grades(s2, "Python", 3)
-
+r2.add_grades(s2, "Python", 9)
 s1.average()
 s2.average()
 l1.average()
