@@ -8,7 +8,6 @@ class Student:
         self.grades = {}
         self.average_grades={}
 
-
     def add_finished_courses(self, course_name):
         print (course_name,self.courses_in_progress)
         if course_name not in self.courses_in_progress:
@@ -94,8 +93,6 @@ class Reviewer(Mentor):
 
     def __str__(self):
         return f"Reviewer:\n Имя: {self.name}\n Фамилия: {self.surname}\n "
-
-
 
 def average_score(list_name,list_courses):
     for g in list_courses:
